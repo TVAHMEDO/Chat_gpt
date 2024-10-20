@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    font-size: 24px;
+}
+
+.chat-log {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+.message, .response {
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+.message {
+    background-color: #e0f7fa;
+    align-self: flex-start;
+}
+
+.response {
+    background-color: #fce4ec;
+    align-self: flex-end;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 0 12px 12px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Styling for highlighted text */
+h3 {
+    font-size: 22px;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+/* Styling for bold text */
+b {
+    font-weight: bold;
+}
